@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace lighting
+namespace Lighting
 {
     public class Student
     {
