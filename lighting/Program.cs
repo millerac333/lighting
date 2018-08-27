@@ -20,6 +20,9 @@ namespace Lighting
             Student aaron = new Student("Aaron", "Miller");
             Student shu = new Student("Shu", "Sajid");
             Student jewel = new Student("Jewel", "Ramierez");
+            Student elliot = new Student("Elliot", "Huck");
+            Student natasha = new Student("Natasha", "Cox");
+
 
             twentySix.InstructorList.Add(steve);
             twentySix.InstructorList.Add(jisie);
@@ -29,6 +32,20 @@ namespace Lighting
             twentySix.StudentList.Add(aaron);
             twentySix.StudentList.Add(shu);
             twentySix.StudentList.Add(jewel);
+            twentySix.StudentList.Add(elliot);
+            twentySix.StudentList.Add(natasha);
+
+            //  Create some exercises
+            Excercise ex1 = new Excercise();
+            ex1.Name = "ChickenMoneky";
+            ex1.Language = "JavaScript";
+            ex1.GitHubURL = "wwww.github.com/chickenmonkey";
+
+            Excercise ex2 = new Excercise();
+            ex1.Name = "KillHanson";
+            ex1.Language = "C#";
+            ex1.GitHubURL = "wwww.github.com/killhanson";
+
         }
     }
 }

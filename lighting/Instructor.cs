@@ -19,5 +19,11 @@ namespace Lighting
             _lastName = lastName;
         }
 
+        // Write a method on the `Instructor` class that will allow you to assign an individual exercise to an individual student
+        public void AssignExcercise(Student student, Excercise exercise)
+        {
+            student.AssignedExcercises.Add(exercise);
+        }
+
     }
 }
