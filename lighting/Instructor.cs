@@ -1,6 +1,4 @@
 // Create an `Instructor` class with the following properties and fields
-using System;
-
 namespace Lighting
 {
     public class Instructor

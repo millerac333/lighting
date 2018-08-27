@@ -1,6 +1,4 @@
 // Create an `Exercise` class with the following properties
-
-using System;
 using System.Collections.Generic;
 
 namespace Lighting

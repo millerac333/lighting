@@ -1,5 +1,4 @@
 // Create a `Student` class with the following properties and fields
-using System;
 using System.Collections.Generic;
 
 namespace Lighting

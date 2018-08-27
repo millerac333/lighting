@@ -1,5 +1,7 @@
 ﻿// Create some cohorts, students, and instructors in your `Program.cs` and assign the students and instructors to the cohort
 
+// Pick one of the students and write to the Console each exercise that has been assigned to that student
+
 using System;
 using System.Collections.Generic;
 
@@ -46,6 +48,13 @@ namespace Lighting
             ex1.Language = "C#";
             ex1.GitHubURL = "wwww.github.com/killhanson";
 
+            steve.AssignExcercise(jewel, ex1);
+            steve.AssignExcercise(jewel, ex2);
+
+            foreach (Excercise excercise in jewel.AssignedExcercises)
+            {
+                Console.WriteLine($"{jewel.Name}: {excercise.Name}");
+            }
         }
     }
 }
